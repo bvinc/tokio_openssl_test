@@ -1,0 +1,14 @@
+[package]
+name = "tokio_openssl_test"
+version = "0.1.0"
+authors = ["Brian Vincent <brainn@gmail.com>"]
+
+[dependencies]
+error-chain = "*"
+futures = "0.1.11"
+openssl = "*"
+tokio-io = "*"
+tokio-core = "0.1"
+tokio-openssl = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
